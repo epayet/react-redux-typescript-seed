@@ -4,8 +4,8 @@ import {IState, IStateImmutable} from "./models";
 // This is the default state, given by the exercise
 let initialState: IState = {
     person: {
-        name: 'world',
-        surname: 'the'
+        name: "world",
+        surname: "the"
     }
 };
 
