@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --inline --hot",
     "build": "npm run clean && webpack --progress --colors",
     "test": "mocha --require ignore-styles --compilers :ts-node/register,tsx:ts-node/register src/**/*.spec.ts",
-    "test:watch": "npm test -- --watch",
+    "test:watch": "npm test -- --watch-extensions ts--watch",
     "clean": "rm -rf dist",
     "clean:all": "npm run clean && rm -rf typings node_modules",
     "lint": "tslint src/**/*.ts",
